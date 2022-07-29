@@ -7,7 +7,7 @@ const AppContext = createContext()
 const AppProvider = ({children})=> {
 
     const [data, setData] = useState([]);
-  const [searchWord,setSearchWord] = useState('')
+    const [searchWord,setSearchWord] = useState('')
     const [wordEntered, setWordEntered] = useState("");
     const [showData,setShowData] = useState([])
 

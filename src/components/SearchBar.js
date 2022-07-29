@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import classes from "./SearchBar.module.css";
 import { useGlobalContext } from "../context";
+
 function SearchBar() {
   const {data, setData,wordEntered,setWordEntered,setSearchWord}= useGlobalContext()
 
